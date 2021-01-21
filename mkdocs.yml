@@ -1,5 +1,6 @@
 site_name: ScarLang
-repo_url: https://github.com/20koen02/scarlang-docs
+repo_url: https://github.com/20Koen02/ScarLang
+repo_name: 20Koen02/ScarLang
 
 theme:
   name: material
@@ -13,9 +14,7 @@ theme:
     repo: fontawesome/brands/git-alt
 
 markdown_extensions:
+  - admonition
+  - pymdownx.smartsymbols
   - toc:
       permalink: true
-
-
-
-

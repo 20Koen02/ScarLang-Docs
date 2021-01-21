@@ -25,6 +25,3 @@ var resolvedExpression = 123 == 123  # 1
 # Reassign
 var stringVariable = "Hey!"
 ```
-
-## Read Next
-[More info on all the types]()
