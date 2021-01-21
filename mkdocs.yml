@@ -1,0 +1,21 @@
+site_name: ScarLang
+repo_url: https://github.com/20koen02/scarlang-docs
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.expand
+  palette:
+    primary: pink
+    accent: pink
+  icon:
+    repo: fontawesome/brands/git-alt
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+
+
+
