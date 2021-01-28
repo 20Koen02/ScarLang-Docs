@@ -1,12 +1,15 @@
 # Variables & Types
+
+Variables are the names you give to computer memory locations which are used to store values in a computer program.
+
 ## Syntax
 Here, `name` is the variable name and `val` is the value you want to assign
 ```
 var name = val
 ```
 
-## Types
-Supported types are: `string, integer, float, array, function`  
+## Value Types
+Supported types are: `string, integer, float, array & function`  
 Booleans are implemented as integers, where `1` is true and `0` is false
 
 ## Example

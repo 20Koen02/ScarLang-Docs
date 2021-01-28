@@ -1,7 +1,18 @@
 site_name: ScarLang
 repo_url: https://github.com/20Koen02/ScarLang
 repo_name: 20Koen02/ScarLang
+edit_uri: https://github.com/20Koen02/ScarLang-Docs/edit/main/docs
 
+nav:
+  - 'index.md'
+  - 'comments.md'
+  - 'variables_and_types.md'
+  - Types:
+      - 'types/string.md'
+      - 'types/integer.md'
+      - 'types/float.md'
+      - 'types/array.md'
+      - 'types/function.md'
 theme:
   name: material
   features:
