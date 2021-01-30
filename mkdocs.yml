@@ -13,6 +13,10 @@ nav:
       - 'types/float.md'
       - 'types/array.md'
       - 'types/function.md'
+  - 'loops.md'
+  - 'comparison_and_logical_operators.md'
+  - 'if_else_statement.md'
+
 theme:
   name: material
   features:
@@ -29,3 +33,7 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - toc:
       permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true

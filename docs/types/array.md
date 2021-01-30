@@ -6,7 +6,7 @@ An array can store any kind of elements — from integers to strings to function
 
 ## Examples
 More on the built-in functions can be found in the [Built-in Function]() section
-```
+```python
 var arr = ["first", "second"]
 
 # Operations
@@ -35,12 +35,12 @@ isTrue(arr)  # 0
 ```
 
 
-## "Unusual" Array Operations
+## Array Operations
 
 ### Append to Array
-> There are two ways to append a value to an array.
-> The first one is to use the `+` operator, and the second way is to use the built-in function `append()`
-```
+There are two ways to append a value to an array.
+The first one is to use the `+` operator, and the second way is to use the built-in function `append()`
+```python
 var arr = ["first", "second"]
 arr + 3  # ["first", "second", 3]
 append(arr, "fourth")  # ["first", "second", 3, "fourth"]
@@ -49,9 +49,9 @@ In the example above we first append `3` to the array using the `+` operator,
 then appending `"fourth"` to the array using the built-in function `append()` 
 
 ### Remove from Array
-> There are two ways to remove a value from an array.
-> The first one is to use the `-` operator, and the second way is to use the built-in function `pop()`
-```
+There are two ways to remove a value from an array.
+The first one is to use the `-` operator, and the second way is to use the built-in function `pop()`
+```python
 var arr = ["first", "second"]
 arr - 1  # ["first"]
 pop(arr, 0)  # []
@@ -61,9 +61,9 @@ then removing the 0th element from the array using the built-in function `append
 These actions result in an empty array
 
 ### Extend Array
-> There are two ways to extend an array with another array.
-> The first one is to use the `*` operator, and the second way is to use the built-in function `extend()`
-```
+There are two ways to extend an array with another array.
+The first one is to use the `*` operator, and the second way is to use the built-in function `extend()`
+```python
 var arr = ["first", "second"]
 arr * [3, "fourth"]  # ["first", "second", 3, "fourth"]
 extend(arr, [5, "sixth"])  # ["first", "second", 3, "fourth", 5, "sixth"]
@@ -72,8 +72,8 @@ In the example above we first extend the array with `[3, "fourth"]` using the `+
 then the array with `[5, "sixth"]` using the built-in function `append()` 
 
 ### Get element from array
-> Use the `/` operator to get a specific element from the array
-```
+Use the `/` operator to get a specific element from the array
+```python
 var arr = ["first", "second"]
 var selected = arr / 1  # "second"
 ```
@@ -81,8 +81,8 @@ In the example above we select the 1st element in the array (we count from 0) an
 This results in `"second"`
 
 ### Get size of the array
-> Use the built-in function `length()` to get the size of the array
-```
+Use the built-in function `length()` to get the size of the array
+```python
 var arr = ["first", "second"]
 var size = length(arr)  # 2
 ```

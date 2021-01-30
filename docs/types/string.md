@@ -6,7 +6,7 @@ The character set is unicode, a list can be found [here](https://www.ssec.wisc.e
 
 ## Examples
 More on the built-in functions can be found in the [Built-in Function]() section
-```
+```python
 var str = "hell"
 
 # Operations
@@ -21,19 +21,19 @@ isTrue(str)  # 1
 ```
 
 
-## "Unusual" String Operations
+## String Operations
 
 ### Extend String
-> A string can be extended by using the `+` operator on two strings.
-```
+A string can be extended by using the `+` operator on two strings.
+```python
 var str = "ext"
 var str = str + "end"
 ```
 In the example above the string "ext" is extended with "end", resulting in "extend"
 
 ### Repeat String
-> A string can be repeated with the `*` operator. You're essentially multiplying the string by a given amount
-```
+A string can be repeated with the `*` operator. You're essentially multiplying the string by a given amount
+```python
 var str = "repeat"
 var str = str * 3
 ```

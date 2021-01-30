@@ -4,7 +4,7 @@ Variables are the names you give to computer memory locations which are used to 
 
 ## Syntax
 Here, `name` is the variable name and `val` is the value you want to assign
-```
+```python
 var name = val
 ```
 
@@ -13,7 +13,7 @@ Supported types are: `string, integer, float, array & function`
 Booleans are implemented as integers, where `1` is true and `0` is false
 
 ## Example
-```
+```python
 # Assign
 var stringVariable = "Hello!"
 var integerVariable = 1

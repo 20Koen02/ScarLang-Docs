@@ -5,7 +5,7 @@ It is stored as a single-precision 32-bit IEEE 754 floating-point.
 
 ## Examples
 More on the built-in functions can be found in the [Built-in Function]() section
-```
+```python
 var float = 1.5
 
 # Operations

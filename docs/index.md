@@ -7,8 +7,5 @@ but serves its purpose: teaching the creator how to make lexers, parsers, interp
     The syntax shown in this wiki is yet to be implemented
 
 ## Installation
-
-!!! error ""
-    There is currently no CLI tool
-
-The only way to run scar scripts is to clone the repo, start Shell.java and use the built-in run() function to run .scar files
+The only way to run scar scripts is to clone the repo, start Shell.java and use the built-in run() function to run .scar files.  
+There will be a CLI tool in te future for running scripts.

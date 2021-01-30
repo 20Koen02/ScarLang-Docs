@@ -6,7 +6,7 @@ A function can take parameters to do operations on and return a value to use aft
 
 ## Examples
 More on the built-in functions can be found in the [Built-in Function]() section
-```
+```python
 func function(prefix) -> prefix + "!"
 
 func multilineFunction(prefix) {

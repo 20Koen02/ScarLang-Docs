@@ -4,7 +4,7 @@ The integer data type is used to represent whole numbers, and is stored as a 32-
 
 ## Examples
 More on the built-in functions can be found in the [Built-in Function]() section
-```
+```python
 var int = 123
 
 # Operations
