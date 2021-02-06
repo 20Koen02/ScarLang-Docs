@@ -19,14 +19,14 @@ print(result)  # 120
 # Single line while loop
 var i = 1000
 while (i > 0) -> var i = i - 1
-print(result)  # 0
+print(i)  # 0
 
 # Multi line while loop
 var i = 1000
 while (i > 0) {
     var i = i - 1
 }
-print(result)  # 0
+print(i)  # 0
 ```
 
 ## For Loops
