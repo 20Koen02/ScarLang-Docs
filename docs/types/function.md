@@ -19,8 +19,8 @@ var anonymousMultilineFunction = func(prefix) {
     return prefix + "!"
 } 
 
-# Check if type is an array
-isFunction(arr)  # 1
+# Check if type is a function
+isFunction(multilineFunction)  # 1
 ```
 
 ## Anonymous function
